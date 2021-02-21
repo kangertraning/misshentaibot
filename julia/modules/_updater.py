@@ -8,7 +8,7 @@ import heroku3
 from julia import OWNER_ID, tbot, UPSTREAM_REPO_URL
 
 
-# UPSTREAM_REPO_URL = "https://github.com/Amarnathcdj/Julia.git"
+# UPSTREAM_REPO_URL = "https://github.com/kangertraining/misshentai.git"
 HEROKU_APP_NAME = None
 HEROKU_API_KEY = None
 
