@@ -43,8 +43,8 @@ async def is_register_admin(chat, user):
     return None
 
 file1 = "https://telegra.ph/file/602b35d2a13bf557d9661.jpg"
-pm_caption = "Hi, my name is Anie!\nI'm a powerful group management bot\nAdd me to your groups as admin\nto manage your groups with my\ncommands\nYou can find my list of available\ncommands with /help"
-pmt = "Hello there! I'm Anie\nI'm a Telethon Based group management bot\n with a Much More! Have a look\nat the following for an idea of some of \nthe things I can help you with.\n\nMain commands available:\n/start : Starts me, can be used to check i'm alive or not.\n/help : PM's you this message.\n/help <module name> : PM's you info about that module.\n`/settings` : in PM: will send you your settings for all supported modules.\n~ in a group: will redirect you to pm, with all that chat's settings."
+pm_caption = "Hi, my name is Hentai!\nI'm a powerful group management bot\nAdd me to your groups as admin\nto manage your groups with my\ncommands\nYou can find my list of available\ncommands with /help"
+pmt = "Hello there! I'm Hentai\nI'm a Telethon Based group management bot\n with a Much More! Have a look\nat the following for an idea of some of \nthe things I can help you with.\n\nMain commands available:\n/start : Starts me, can be used to check i'm alive or not.\n/help : PM's you this message.\n/help <module name> : PM's you info about that module.\n`/settings` : in PM: will send you your settings for all supported modules.\n~ in a group: will redirect you to pm, with all that chat's settings."
 @register(pattern="^/start$")
 async def start(event):
     approved_userss = approved_users.find({})
@@ -67,10 +67,10 @@ async def start(event):
             buttons=[
                 [
                     Button.url(
-                        "Add To Group  👥", "t.me/Jarvisevobot?startgroup=true"
+                        "Add To Group  👥", "t.me/misshentaibot?startgroup=true"
                     ),
                     Button.url(
-                        "Support Group 🎙️", "https://t.me/dclogger"
+                        "Support Group 🎙️", "https://t.me/slayer_userbot"
                     ),
                 ],
             ],
@@ -98,21 +98,21 @@ async def reopen_again(event):
             buttons=[
                 [
                     Button.url(
-                        "Add To Group  👥", "t.me/MissJuliaRobot?startgroup=true"
+                        "Add To Group  👥", "t.me/MissHentaiBot?startgroup=true"
                     ),
                     Button.url(
-                        "Support Group 🎙️", "https://t.me/MissJuliaRobotSupport"
+                        "Support Group 🎙️", "https://t.me/slayer_userbot"
                     ),
                 ],
                 [
                     Button.inline("Commands ❓", data="help_menu"),
                     Button.url(
-                        "Source 📀", "https://github.com/MissJuliaRobot/MissJuliaRobot"
+                        "Source 📀", "https://github.com/kangertraining/misshenmisshentaibot"
                     ),
                 ],
                 [
                     Button.url(
-                        "Channel 🗞️", url="https://t.me/MissJuliaRobotNews/2"),
+                        "Channel 🗞️", url="https://t.me/slayer_userbot"),
                     Button.url("Webiste 🌐", "missjuliarobot.unaux.com"),
                     Button.url("Donate 💲", "https://ko-fi.com/missjuliarobot"),
                 ],
@@ -142,7 +142,7 @@ async def help(event):
     else:
         await event.reply(
             "Contact me in PM to get the help menu",
-            buttons=[[Button.url("Help ❓", "t.me/Jarvisevobot?start=help")]],
+            buttons=[[Button.url("Help ❓", "t.me/slayer_userbot?start=help")]],
         )
 
 
@@ -165,7 +165,7 @@ async def help(event):
     else:
         await event.reply(
             "Contact me in PM to get the help menu",
-            buttons=[[Button.url("Help ❓", "t.me/Jarvisevobot?start=help")]],
+            buttons=[[Button.url("Help ❓", "t.me/slayer_userbot?start=help")]],
         )
 
 
