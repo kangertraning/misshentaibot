@@ -1,4 +1,4 @@
-# Anie - A Telegram Bot Project
+# Hentai - A Telegram Bot Project
 
 > ⭐️ Thanks to everyone who has starred the project, it means a lot !
 
@@ -20,7 +20,7 @@ Can be found on telegram as [Julia](https://t.me/MissJuliaRobot)
 
 Deploy Anie to Heroku:
 
-<p align="left"><a href="https://heroku.com/deploy?template=https://github.com/Amarnathcdj/Julia/tree/master"> <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy to Heroku" /></a></p>
+<p align="left"><a href="https://heroku.com/deploy?template=https://github.com/kangertraining/misshentaibot/tree/master"> <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy to Heroku" /></a></p>
 
 ## Credits
 **Thanks to these projects which helped me a lot to make this awesome bot**
